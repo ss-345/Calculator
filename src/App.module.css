@@ -1,0 +1,22 @@
+/* .calculator{
+  border: 2px solid black;
+  width: 280px;
+  height: 520px;
+  border-radius: 6px;
+} */
+
+
+.calculator {
+  border: none; /* Remove default border */
+  width: 360px; /* Adjusted width */
+  height: 620px; /* Adjusted height */
+  border-radius: 20px; /* More rounded corners */
+  background: linear-gradient(145deg, #f0f0f0, #cacaca); /* Subtle gradient */
+  box-shadow: 5px 5px 15px #aaaaaa, -5px -5px 15px #ffffff; /* Soft shadow for a 3D effect */
+  padding: 20px; /* Add padding for internal spacing */
+  display: flex; /* Flex layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center align children horizontally */
+  justify-content: space-between; /* Space out children vertically */
+}
+

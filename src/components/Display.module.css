@@ -1,0 +1,32 @@
+/* .display{
+  margin: 12px;
+  width: 90%;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 600;
+} */
+.display {
+  margin: 12px;
+  width: calc(100% - 24px); /* Adjust width to account for margin */
+  height: 60px;
+  border-radius: 10px; /* More rounded corners */
+  font-size: 24px;
+  font-weight: 600;
+  padding: 8px 12px; /* Add padding for better text spacing */
+  border: 2px solid #ccc; /* Light border */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); /* Inner shadow */
+  background-color: #fefefe; /* Light background */
+  color: #333; /* Darker text color */
+  text-align: right; /* Align text to the right */
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.display:focus {
+  border-color: #203041; /* Highlight border on focus */
+  box-shadow: inset 0 1px 6px rgba(0, 123, 255, 0.3); /* Enhance inner shadow */
+}
+
+
+
